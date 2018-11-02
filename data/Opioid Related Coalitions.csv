@@ -1,0 +1,215 @@
+savi_id,com_id,OrgNameGiven,NOTMC,MANYSITES,GIN_001,GIN_002,GIN_003,GIN_004,GMC_001_14,GMC_001_16,GMC_002,GMC_003,GMC_004,GMC_005,GMC_006,GHC_001_14,GCC_001_14,GCC_001_17
+NA,404918970,"Addiction Recovery Services, Indiana Department of Correction ",NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,NA,Allen County ,1,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,NA,Avon Urgent Care ,1,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,NA,Big Red Liquors,NA,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0
+NA,NA,CEASe of Scott County ,1,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+NA,582363297,Central Indiana Community Foundation,NA,NA,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+NA,NA,Charlestown Police Department,1,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,City of Kokomo,1,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,Clark Co. Youth Coalition,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+NA,NA,Clark Co. Youth Shelter,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+NA,NA,Clark County Prosecutors Office,1,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,Clark County Sheriff's Dept.,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+NA,NA,Clark County Youth Shelter,1,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+NA,NA,Clark NAACP,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+NA,NA,Clarksville Police Department,1,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+NA,560977654,"Clifton, Larsen, Allen",NA,NA,0,0,0,1,0,1,0,0,0,0,0,0,1,1
+NA,NA,Columbus Police Department ,1,NA,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+NA,NA,Community Health Network ,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+NA,713306856,"Community Solutions, Inc.",NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+NA,942567462,Craine House,NA,NA,0,0,0,0,1,1,0,0,0,0,0,0,0,1
+NA,NA,CVS ,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,NA,Dearborn County Special Crimes Unit   ,1,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+NA,440095801,Disciple Data,NA,NA,0,0,0,0,1,0,1,1,0,0,0,0,0,0
+NA,440159671,Drug Enforcement Administration ,NA,NA,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+NA,401406256,Drug Free Marion County ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,NA,EmployIndy,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,711883747,Express Scripts ,NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+NA,100048,Fairbanks School of Public Health at IUPUI,NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+NA,418682137,Family and Social Services Administration,NA,NA,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+NA,NA,Family Service Association of Howard County,1,NA,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+NA,713286097,Federal Home Loan Bank of Indianapolis,NA,NA,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+NA,NA,Fort Wayne Medical Education Program ,1,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,582363172,Goodman Campbell Brain & Spine ,NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+NA,NA,Greater Clark School Corp.,1,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,Healthier Morgan County Initiative ,1,NA,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+NA,NA,HealthNet,NA,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+NA,NA,Hendricks County Superior Court,1,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+NA,NA,Henry County Probation Department,1,NA,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,Huntington Bank,NA,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+NA,NA,IMPD,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+NA,459369930,IN Dept. of Natural Resources,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,415255390,IN National Guard,NA,NA,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+NA,824006175,Indiana Department of Correction,NA,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+NA,893388306,Indiana Department of Education,NA,NA,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+NA,618294649,Indiana Poison Control ,NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+NA,476908009,Indiana Professional Licensing Agency ,NA,NA,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+NA,425729358,Indiana Prosecuting Attorneys Council,NA,NA,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+NA,824005730,Indiana Public Defender Council,NA,NA,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+NA,140906736,Indiana Sheriffs Association,NA,NA,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+NA,208309773,Indiana State Board of Pharmacy ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,440136299,Indiana State Medical Association,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,233287879,Indiana State Representative,NA,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,1
+NA,440165397,Indiana State Senator,NA,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+NA,440165397,Indiana State Senator,NA,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,1
+NA,425729360,Indiana Supreme Court,NA,NA,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+NA,425729360,"Indiana Supreme Court, Office of Judicial Administration",NA,NA,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+NA,450153333,Indiana University School of Medicine ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,NA,Indpls Metropolitan Police Dept.,NA,1,0,0,0,0,1,1,1,0,0,0,1,0,0,1
+NA,NA,IU Health,NA,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+NA,NA,Jeffersonville Police Department,1,NA,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+NA,NA,Jeffersonville Public Library,1,NA,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+NA,NA,Kokomo Center Township Schools,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+NA,NA,Kokomo City Council,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+NA,NA,Kokomo Police Department,1,NA,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+NA,937486702,"Managed Health Services, Inc. ",NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,439681713,Marion Co. Auditor,NA,NA,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+NA,440138212,Marion County Prosecutor's Office,NA,NA,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+NA,478223001,Marion County Superior Court - Criminal Division,NA,NA,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+NA,478223001,Marion Superior Court,NA,NA,0,0,1,0,1,0,1,0,0,0,0,0,0,0
+NA,367844594,"Medicaid Fraud Control Unit, Office of the Indiana Attorney General ",NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+NA,367844594,Medicaid Fraud Division ,NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+NA,415254768,Mental Health America (Indiana) ,NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+NA,NA,NAMI,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+NA,258062975,Oda Enterprises,NA,NA,0,0,0,1,0,1,0,0,0,0,0,0,1,1
+NA,472223981,Office of the Governor,NA,NA,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+NA,436499739,Overdose Lifeline ,NA,NA,0,0,0,1,0,0,0,0,0,0,1,0,1,0
+NA,140817214,Progress House ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,440138212,Prosecutor’s Office,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+NA,NA,Purdue University School of Pharmacy,1,NA,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+NA,258068634,"Recycle Force/Shipley Communications, Inc.",NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,St. Vincent Family Physician,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+NA,475133542,State Budget Agency,NA,NA,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+NA,233287879,State Representative District 93,NA,NA,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+NA,233287879,State Representative District 99,NA,NA,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+NA,NA,Town of Clarksville,1,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,TriCounty Health Coalition,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+NA,521296830,Use What You've Got Prison Ministry,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+NA,NA,Walgreens ,NA,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+NA,NA,West Clark Community Schools,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+NA,NA,YMCA,NA,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0
+100035,NA,Office of Management and Budget,NA,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+100039,NA,Indianapolis EMS,NA,NA,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+100041,NA,Marion County Drug Treatment Court,NA,NA,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+100046,NA,Probation Officers Professional Association of Indiana,NA,NA,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+100068,NA,New Hope Services,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+100075,NA,Centerstone Recovery ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100077,NA,Brandon's House,NA,NA,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+100078,NA,Center for Health Policy ,NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+100079,NA,Center for Lay Ministries,NA,NA,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+100080,NA,Chief Justice of Indiana,NA,NA,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+100081,NA,Child Protective Services Division of Family and Children,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+100082,NA,ChildPlace,NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+100083,NA,Coalition of Advanced Practice Nurses of Indiana ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+100084,NA,Communities in Schools Clark Co.,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+100085,NA,Corizon Health,NA,NA,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+100086,NA,District 47 State Senator,NA,NA,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+100087,NA,Division of Mental Health & Addictio,NA,NA,0,1,1,1,0,0,0,0,0,0,0,0,0,0
+100088,NA,"Drug Prevention, Treatment, and Enforcement",NA,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+100089,NA,Edinburgh Family Health ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100090,NA,Eli Lilly – Anti-Counterfeiting Operations ,NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+100091,NA,"Homeless & ReEntry Helpers, Inc.",NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+100092,NA,Howard County Adult Probation Officer,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+100093,NA,Howard County Judge,NA,NA,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+100094,NA,Howard Regional Health,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+100095,NA,Huntington County ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+100096,NA,IN Addictions Coalition,NA,NA,0,0,0,1,1,1,0,0,0,0,0,1,0,0
+100097,NA,IN Div. of Mental Health & Addictions,NA,NA,0,0,0,1,0,1,0,0,1,0,0,0,0,0
+100098,NA,IN Health Marriage & Family Coal.,NA,NA,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+100099,NA,Independent Consultant,NA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+100100,NA,Indiana Addictions Issues Coalition      ,NA,NA,0,1,0,1,1,1,1,0,0,0,0,0,0,0
+100101,NA,Indiana Board of Pharmacy,NA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+100102,NA,Indiana Housing & Community Development Authority,NA,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+100103,NA,Indiana Judicial Center  Chris ,NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+100104,NA,Indiana Pharmacy Alliance ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+100105,NA,Indiana Prevention ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100106,NA,Indiana Public Instruction,NA,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+100107,NA,Indiana Section of American Congress of Obstetricians & Gynecologists ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100108,NA,Indiana-Illinois Sea Grant ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100109,NA,IU Center for Health Policy,NA,NA,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+100110,NA,"IU Health, Indiana Board of Pharmacy ",NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+100111,NA,IU School of Medicine and Eskenazi Health ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100112,NA,Jefferson Alcohol & Drug Abuse Center,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+100113,NA,KCG Development,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+100114,NA,Kristy's House,NA,NA,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+100115,NA,Life Improvement,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+100116,NA,Life Spring Mental Health Services,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+100117,NA,M.D. Campbell Goodman Scott ,NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+100118,NA,Manchester College ,NA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+100119,NA,Monster.com,NA,NA,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+100120,NA,New Progressive Baptist Church,NA,NA,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+100121,NA,Orexo,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100122,NA,Our Place Drug & Alcohol Ed.,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+100123,NA,Parkdale Recovery Center ,NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+100124,NA,Personal Counseling,NA,NA,0,0,0,0,1,0,0,0,0,0,0,0,1,1
+100125,NA,Providence  High School ,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+100126,NA,River Valley Middle School,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+100127,NA,Rx Safe-Net and Purdue School of Pharmacy ,NA,NA,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+100128,NA,Sellersburg Police Department,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+100129,NA,She Inc.,NA,NA,0,0,0,0,1,1,0,0,0,0,0,0,1,0
+100130,NA,St Mary’s Hospital for Women and Children,NA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+100131,NA,Summit Pain Clinic,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100132,NA,Summit Physical Medicine ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+100133,NA,Terraces of Park Place,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+100134,NA,The Carver Community Center,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+100135,NA,Thresholds and Transitions,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+100136,NA,"Together We Can Consulting, LLC",NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+100137,NA,Western Schools ,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+100138,NA,Workforce Inc. ,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+100139,NA,City of Indianapolis Office of Public Health and Safety,NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+100140,NA,Consumer in Recovery,NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+100141,NA,IUPUI - SPEA,NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+100142,NA,Marion County Community Corrections,NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+862721,NA,Devington Neighborhood Assoc.,NA,NA,0,0,0,1,1,1,0,1,0,0,0,0,0,0
+862861,425937269,Senator Joe Donnelly's Office,NA,NA,0,1,0,0,0,1,0,0,0,0,0,0,1,0
+863212,NA,Indiana State Department of Health ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+863212,NA,Indiana State Dept of Health ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+863212,NA,"Office of Women’s Health, Indiana State Dept of Health ",NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+863259,NA,PACE Inc.,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+863311,NA,Indiana Attorney General ,NA,NA,1,1,0,1,0,0,1,0,0,0,0,0,0,0
+863311,NA,OAG,NA,NA,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+863311,NA,Office of the Attorney General,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+863311,NA,Office of the Indiana  Attorney General ,NA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+863311,NA,"Prescription Drug Abuse Prevention Task Force, OAG ",NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+863345,655580991,Department of Child Services,NA,NA,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+863380,NA,Community Alliance of the Far East Side,NA,NA,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+863573,NA,Indpls Public Schools,NA,NA,0,0,0,0,1,1,1,1,0,0,0,0,1,0
+863647,425213964,United Way of Central IN,NA,NA,0,0,0,0,1,1,1,0,0,1,0,0,1,1
+863969,724285550,Indiana General Assembly ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+863969,724285550,"Indiana General Assembly, District 46   ",NA,NA,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+864083,998519730,Rodebush VA Hospital,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+864083,998519730,VA Medical Center,NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+864254,458601820,Pathway to Recovery,NA,NA,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+864416,713282938,Indiana State Police ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+864428,140848045,Indiana Health Care Association,NA,NA,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+864837,824321228,Goodwill Industries,NA,NA,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+864949,950110593,Ivy Tech,NA,NA,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+865611,824060131,ICAADA,NA,NA,0,0,0,1,0,1,0,0,0,0,0,1,0,0
+867126,NA,Marion Co. Sheriff's Dept.,NA,NA,0,0,0,0,1,1,0,0,0,0,1,0,0,1
+867161,705355063,Marion Co. Health Dept.,NA,NA,0,0,0,1,0,1,0,0,0,0,0,0,1,0
+867306,NA,Marion Co. Public Health Dept.,NA,NA,0,0,0,1,1,1,0,0,0,0,1,0,0,0
+867548,NA,Horizon House,NA,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+867669,440168599,Indianapolis Dept of Metropolitan Development,NA,NA,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+867881,355630609,IN Chamber of Commerce,NA,NA,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+868073,NA,Lawrence Police Dept.,NA,NA,0,0,0,1,0,1,0,0,0,0,0,1,0,0
+868200,1259621,Eskenazi Health,NA,NA,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+868234,383164456,Wheeler Mission Ministries,NA,NA,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+868433,368184727,Indiana Criminal Justice Institute,NA,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+868597,722042184,YMCA of So. IN,NA,NA,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+868622,552788077,HVAF of Indiana,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+881930,385069281,IN Minority Health Coalition,NA,NA,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+882669,715012498,IU Health Methodist ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+883028,437322048,Eskenazi Health Midtown,NA,NA,0,0,0,0,0,1,0,1,1,1,1,0,0,0
+883028,437322048,Midtown/Eskenazi Health,NA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+883111,403427700,Community Hospital East ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+883111,937459345,Community Physicians Network ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+883395,NA,Health and Hospital Corporation of Marion County,NA,NA,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+883692,824006480,IN Dept. of Environmental Management ,NA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+884080,NA,Bethlehem House,NA,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+884591,NA,God's Helping Hand,NA,NA,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+884806,884501024,Center for Pain Management ,NA,NA,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+884887,NA,Sycamore Springs ,NA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+886586,824323422,John Boner Center,NA,NA,1,1,0,0,0,1,0,0,0,0,0,0,1,1
+887231,718786482,Boys and Girls' Clubs,NA,NA,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+888658,NA,CARE,NA,NA,0,0,0,0,1,0,0,0,0,0,0,0,0,0

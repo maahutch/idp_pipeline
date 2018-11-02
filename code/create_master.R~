@@ -1,0 +1,18 @@
+library(RODBC)
+
+dbhandle <- odbcDriverConnect('driver={SQL Server};server=in-ibrc-db6.ads.iu.edu\\IDP;database=IDP; schema=dbo;trusted_connection=true')
+
+
+odbcConnect('in-ibrc-db6.ads.iu.edu\\IDP', uid = 'maahutch')
+
+?odbcDriverConnect
+
+library(odbc)
+
+con <- dbConnect(odbc(),
+                 Driver = "ODBC Driver 17 for SQL Server",
+                 Server = "in-ibrc-db6.ads.iu.edu",
+                 Database = "IDP",
+                 UID = "maahutch",
+                 PWD = rstudioapi::askForPassword("Database password"),
+                 Port = 1433)

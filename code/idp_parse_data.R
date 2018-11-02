@@ -1,0 +1,130 @@
+library(tidyr)
+library(stringi)
+ 
+
+##########################
+
+
+##Create string to read master file with today's date 
+file.name <- paste0("~/idp_pipeline/data/master_file/master_", format(Sys.Date(), "%m_%d_%y"), ".csv")
+
+##Create string to read master file with name specified in string
+#file.name <- paste0("~/idp_pipeline/data/master_file/master_", "your suffix here, ".csv")
+
+master <- read.csv(file.name, header = T, stringsAsFactors = F)
+
+#Creates combined latitide and longitude field
+master$lat_lon <- paste(master$lat, '_', master$long, sep = "")
+
+
+#Splits 6 digit NAICS
+master$PrimaryNaics[is.na(master$PrimaryNaics)] <- "999999"
+
+master$naics_1 <- master$PrimaryNaics
+
+master <-
+    separate(
+        master,
+        naics_1,
+        into = c('naics1_2', 'naics1_3', 'naics1_4', 'naics1_5', 'naics1_6'),
+        sep = c(2, 3, 4, 5, 6)
+    )
+
+master$naics1_3 <- paste(master$naics1_2, master$naics1_3, sep = "")
+master$naics1_4 <- paste(master$naics1_3, master$naics1_4, sep = "")
+master$naics1_5 <- paste(master$naics1_4, master$naics1_5, sep = "")
+master$naics1_6 <- paste(master$naics1_5, master$naics1_6, sep = "")
+
+
+
+
+master$Naics2[is.na(master$Naics2)] <- "999999"
+
+master$naics_2 <- master$Naics2
+
+
+master <-
+    separate(
+        master,
+        naics_2,
+        into = c('naics2_2', 'naics2_3', 'naics2_4', 'naics2_5', 'naics2_6'),
+        sep = c(2, 3, 4, 5, 6)
+    )
+
+master$naics2_3 <- paste(master$naics2_2, master$naics2_3, sep = "")
+master$naics2_4 <- paste(master$naics2_3, master$naics2_4, sep = "")
+master$naics2_5 <- paste(master$naics2_4, master$naics2_5, sep = "")
+master$naics2_6 <- paste(master$naics2_5, master$naics2_6, sep = "")
+
+master$savi_id <- as.numeric(master$savi_id)
+
+
+
+
+#Reads Savi Assets file 
+savi <- read.csv("~/idp_pipeline/data/IDP_SAVI_ orgs_wCats.csv", header = T, stringsAsFactors = F)
+
+
+savi$orgname_cap <- toupper(savi$OrgName)
+
+
+savi$savi_id <- as.numeric(savi$OrgID)
+
+
+
+
+
+#Merges master files and savi file
+combo <- merge(master, savi, by.x = "savi_id", by.y = "savi_id", all.x = T)
+
+
+combo <- as.data.frame(sapply(combo, function(x) gsub("'", "", x)))
+
+
+combo$in_care_of <- NULL
+
+
+#Create capitalized org names (redundant?)
+combo$orgname_cap <- as.character(toupper(combo$OrgName))
+
+
+
+for(i in 1:length(combo$orgname_cap)){
+  
+  if(is.na(combo$orgname_cap[i])){
+    
+    combo$orgname_cap[i] <- as.character(combo$org_name[i])
+    
+  }
+  
+}
+
+
+#Trying to remove special and non UTF-8 characters
+combo$orgname_cap <- gsub("[[:punct:]]", "", as.matrix(combo$orgname_cap))
+
+combo$orgname_cap <- stri_enc_toutf8(combo$orgname_cap)
+
+combo$orgname_cap <- gsub("[\r\n]", "", combo$orgname_cap)
+
+combo$orgname_cap <- gsub("\xa0", "", combo$orgname_cap)
+combo$orgname_cap <- gsub("\x92", "", combo$orgname_cap)
+
+
+#Creates blended_id for database
+combo$blended_id  <- paste(combo$savi_id, combo$com_id, sep = '_')
+
+#Capitalized combine orgnames
+combo$orgname_cap <- toupper(combo$orgname_cap)
+
+
+combo$master_id <- seq.int(nrow(combo))
+
+#Create combo.csv
+write.csv(combo, '~/idp_pipeline/data/combo.csv', row.names = F)
+
+
+
+
+
+
