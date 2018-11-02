@@ -33,7 +33,7 @@ While this pipeline can be used, it is not yet complete to the extent that a use
 ## Script Summaries
 Here I've tried to provide a short summary of each file in the /code directory in the order they are called by idp_build.cpp
 
-### idp_build.cpp
+#### idp_build.cpp
 This is the control script that calls all the other scripts sequentially. Simply issues system commands and prints status messages. Can be replaced with a shell script. 
 
 #### create_master.R
@@ -45,16 +45,16 @@ This script reads the 'master' csv created by create_master.R and combines it wi
 #### build_csv.R
 Creates indices in the database. Reads combo.csv and reshapes it into node and edge list to be loaded into the database. Writes the csv's to Neo4j import directory. 
 
-### load_idp.cql
+#### load_idp.cql
 Cypher code to load files produced by build_csv.R into the database
 
-### add_pathways.R
+#### add_pathways.R
 Add's levels to certain categories identified as steps in the pathways to recovery. Categories are listed in script - no csv. These levels are used in the 'Pathways Map' in the web app. 
 
-### add_referrals.cql
+#### add_referrals.cql
 Cypher script to add referrals from the 'Opioid_Referral_Listing.csv'. 
 
-### add_coalitions.R
+#### add_coalitions.R
 Reads coalition information from Opioid Related Coalitions.csv. Loads coalition nodes in the database and connects them to the organizations. 
 
 
