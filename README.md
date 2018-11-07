@@ -57,6 +57,9 @@ Cypher script to add referrals from the 'Opioid_Referral_Listing.csv'.
 #### add_coalitions.R
 Reads coalition information from Opioid Related Coalitions.csv. Loads coalition nodes in the database and connects them to the organizations. 
 
+#### add_eindy.R
+Adds workforce programs from eindy.csv
+
 
 ## To Do
 
