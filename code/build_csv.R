@@ -14,6 +14,8 @@ cypher(conn, 'CREATE CONSTRAINT ON (a:asset_savi)   ASSERT a.asset_id     IS UNI
 cypher(conn, 'CREATE CONSTRAINT ON (c:coalition)    ASSERT c.name         IS UNIQUE')
 cypher(conn, 'CREATE CONSTRAINT ON (o:organization) ASSERT o.blended_id   IS UNIQUE')
 cypher(conn, 'CREATE CONSTRAINT ON (o:lat_lon)      ASSERT o.lat_lon      IS UNIQUE')
+cypher(conn, 'CREATE CONSTRAINT ON (o:program)      ASSERT o.name         IS UNIQUE')
+
 
 #Add indexes to DB for fields searched by web app
 cypher(conn, 'CREATE INDEX ON :organization(latitude)')

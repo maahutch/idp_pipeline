@@ -1,11 +1,15 @@
 
 library(RNeo4j)
 
+pswd <- as.character(read.delim("~/idp_pipeline/code/pswd.txt", header = F)[1,1])
+
 #Connect to database
-conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password="your password here")
+conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password=pswd)
 
 #Read Opioid Related Coalitions file
-coal <- read.csv('~idp_pipeline/data/Opioid Related Coalitions.csv', header = T, stringsAsFactors = F)
+coal <- read.csv('~/idp_pipeline/data/Opioid Related Coalitions.csv', header = T, stringsAsFactors = F)
+
+coal_fn <- read.csv('~/idp_pipeline/data/op_coal_fullnames.csv')
 
 coalitions <- colnames(coal[6:ncol(coal)])
 
@@ -13,10 +17,12 @@ coalitions <- colnames(coal[6:ncol(coal)])
 
 #Create coalition nodes and connect them to organizations
 
-add_coalitions2 <- function(name, raw_dat){
+add_coalitions2 <- function(name, raw_dat, fn){
   
+  full_name <- subset(fn[,2], fn[,1] == name)
   
-  make_coal_q <- paste0("CREATE (c:coalition{name:'", name, "'})")
+  make_coal_q <- paste0("CREATE (c:coalition{name:'", name, "'})
+                          SET c.full_name = '",       full_name, "'")
   
   tryCatch(cypher(conn, make_coal_q), error=function(e){})
   
@@ -58,4 +64,4 @@ add_coalitions2 <- function(name, raw_dat){
   return('OK')
 }
 
-sapply(coalitions, add_coalitions2, raw_dat = coal, simplify = T)
+sapply(coalitions, add_coalitions2, raw_dat = coal, fn = coal_fn, simplify = T)
