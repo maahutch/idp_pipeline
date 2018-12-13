@@ -1,8 +1,14 @@
 library(RODBC)
 
-dbhandle <- odbcDriverConnect('driver={SQL Server};server=in-ibrc-db6.ads.iu.edu\\IDP;database=IDP; schema=dbo;trusted_connection=true')
+dbhandle <- odbcDriverConnect('driver={SQL Server};server=in-ibrc-db6.ads.iu.edu\\IDP;database=IDP; schema=dbo;')
 
-
+dbhandle <- odbcDriverConnect('driver={SQL Server};
+                              server=in-ibrc-db6.ads.iu.edu\\IDP;
+                              database=IDP;
+                              schema=dbo;
+                              uid=iupui;
+                              pwd=data@iupui;
+                              trusted_connection=true')
 
 master <- sqlQuery(dbhandle, 
                    "select ROW_NUMBER() OVER (ORDER BY a.source_type) AS master_id, a.source_type, b.irs_id, a.com_id, null as 'e1_id', b.sos_id, b.parcel_id, b.savi_id,

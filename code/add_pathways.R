@@ -1,9 +1,10 @@
 library(RNeo4j)
 
 
-#Connect to DB
-conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password="your password here")
+pswd <- readChar('~/idp_pipeline/data/pswd', file.info('~/idp_pipeline/data/pswd')$size-1)
 
+#Connect to DB
+conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password=pswd)
 
 #Build data frame of categories and path steps
 entry.points2 <- toupper(c('911 Services',

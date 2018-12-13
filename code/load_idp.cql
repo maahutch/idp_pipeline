@@ -11,7 +11,8 @@ SET o.master_id          = org.`master_id`,
     o.latitude           = org.`latitude`, 
     o.longitude          = org.`longitude`, 
     o.com_id             = org.`com_id`, 
-    o.org_name           = org.`org_name`     
+    o.org_name           = org.`org_name`,
+    o.naicsmap           = org.`naicsmap`     
 //RETURN "Organization loaded"
 ;
 

@@ -1,6 +1,6 @@
 library(RNeo4j)
 
-pswd <- as.character(read.delim("~/idp_pipeline/code/pswd.txt", header = F)[1,1])
+pswd <- readChar('~/idp_pipeline/data/pswd', file.info('~/idp_pipeline/data/pswd')$size-1)
 
 #Connect to database
 conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password=pswd)
@@ -60,5 +60,38 @@ add.programs <- function(name, raw_dat){
 
 sapply(programs, add.programs, raw_dat = eindy, simplify = T)
 
+
+
+cat.wi <- read.csv('~/idp_pipeline/data/workforce_cluster.csv', header = T, stringsAsFactors = F)
+
+cat.wi[cat.wi == "NULL"] = NA
+
+
+cat.wi$blended_id <- paste0(cat.wi$savi_id, '_', cat.wi$com_id)
+
+
+add.color.cats <- function(number, data){
+  
+  blended_id  <- data[number, which(colnames(data) == "blended_id")]
+
+  group_desc <- data[number, which(colnames(data) == "group_desc")]
+  
+  add.color.q <-
+    paste0(
+      "MATCH (a:organization)
+      WHERE a.blended_id = '",
+      blended_id,
+      "' SET a.group = '",
+      group_desc,
+      "'"
+    )
+
+  
+  cypher(conn, add.color.q)
+ 
+}
+
+
+sapply(2:nrow(cat.wi), add.color.cats, data = cat.wi)
 
 

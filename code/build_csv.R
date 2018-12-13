@@ -1,10 +1,13 @@
 library(RNeo4j)
 
 #Read combo.csv
-combo <- read.csv('~idp_pipeline/data/combo.csv', header = T)
+combo <- read.csv('~/idp_pipeline/data/combo.csv', header = T)
+
+#Read password file
+pswd <- readChar('~/idp_pipeline/data/pswd', file.info('~/idp_pipeline/data/pswd')$size-1)
 
 #Open Connection to database
-conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password="your password here")
+conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password=pswd)
 
 
 
@@ -37,7 +40,8 @@ org.df <- data.frame(master_id          = combo$master_id,
                      lat_lon            = combo$lat_lon, 
                      latitude           = combo$lat, 
                      longitude          = combo$long, 
-                     com_id             = combo$com_id
+                     com_id             = combo$com_id, 
+                     naicsmap           = combo$naicsmap
                      )
 
 write.csv(org.df, '/usr/local/neo4j-community-3.3.0/import/org.csv', row.names = F)

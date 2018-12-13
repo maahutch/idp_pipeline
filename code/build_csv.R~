@@ -1,36 +1,23 @@
 library(RNeo4j)
 
-combo <- read.csv('/N/u/maahutch/Karst/idp_db/combo.csv', header = T)
+#Read combo.csv
+combo <- read.csv('~idp_pipeline/data/combo.csv', header = T)
 
-conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password="microsoft")
+#Open Connection to database
+conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password="your password here")
 
 
 
-#cypher(conn, 'CREATE CONSTRAINT ON (c:city)         ASSERT c.city         IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (d:county)       ASSERT d.county       IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (z:zip)          ASSERT z.zip          IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (t:census_tract) ASSERT t.census_tract IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (b:census_bg)    ASSERT b.census_bg    IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n12:naics1_2)   ASSERT n12.naics1_2   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n13:naics1_3)   ASSERT n13.naics1_3   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n14:naics1_4)   ASSERT n14.naics1_4   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n15:naics1_5)   ASSERT n15.naics1_5   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n16:naics1_6)   ASSERT n16.naics1_6   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n22:naics2_2)   ASSERT n22.naics2_2   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n23:naics2_3)   ASSERT n23.naics2_3   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n24:naics2_4)   ASSERT n24.naics2_4   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n25:naics2_5)   ASSERT n25.naics2_5   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (n26:naics2_6)   ASSERT n26.naics2_6   IS UNIQUE')
+#Add Uniqueness constraints to DB
 cypher(conn, 'CREATE CONSTRAINT ON (cat:category)   ASSERT cat.category   IS UNIQUE')
 cypher(conn, 'CREATE CONSTRAINT ON (a:asset_savi)   ASSERT a.asset_id     IS UNIQUE')
 cypher(conn, 'CREATE CONSTRAINT ON (c:coalition)    ASSERT c.name         IS UNIQUE')
 cypher(conn, 'CREATE CONSTRAINT ON (o:organization) ASSERT o.blended_id   IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (o:organization) ASSERT o.savi_id      IS UNIQUE')
-#cypher(conn, 'CREATE CONSTRAINT ON (o:organization) ASSERT o.com_id       IS UNIQUE')
 cypher(conn, 'CREATE CONSTRAINT ON (o:lat_lon)      ASSERT o.lat_lon      IS UNIQUE')
+cypher(conn, 'CREATE CONSTRAINT ON (o:program)      ASSERT o.name         IS UNIQUE')
 
 
-
+#Add indexes to DB for fields searched by web app
 cypher(conn, 'CREATE INDEX ON :organization(latitude)')
 cypher(conn, 'CREATE INDEX ON :organization(longitude)')
 cypher(conn, 'CREATE INDEX ON :organization(opioid_involved)')
@@ -38,7 +25,7 @@ cypher(conn, 'CREATE INDEX ON :organization(savi_id)')
 cypher(conn, 'CREATE INDEX ON :organization(com_id)')
 
 
-
+#Writes csv's to default path. May need to be changed depending on installation
 
 #Create orgs
 org.df <- data.frame(master_id          = combo$master_id, 

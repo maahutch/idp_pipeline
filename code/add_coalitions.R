@@ -1,7 +1,7 @@
 
 library(RNeo4j)
 
-pswd <- as.character(read.delim("~/idp_pipeline/code/pswd.txt", header = F)[1,1])
+pswd <- readChar('~/idp_pipeline/data/pswd', file.info('~/idp_pipeline/data/pswd')$size-1)
 
 #Connect to database
 conn <- startGraph("http://localhost:7474/db/data/", username="neo4j", password=pswd)
